@@ -5,7 +5,7 @@ pipeline{
 	        agent {
 		    	docker{
 			        image "openjdk:17-alpine"
-			        image "maven: 3.8.6"
+			        image "maven:3.8.6"
 		    	}
 		    } 
             steps{
